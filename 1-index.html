@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Precuela</title>
+<meta name="description" content="La historia detrás de cada titular. Mira los videos completos en YouTube.">
+<meta property="og:title" content="Precuela">
+<meta property="og:description" content="La historia detrás de cada titular. Mira los videos completos en YouTube.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="f1.jpg">
+<link rel="icon" href="avatar.jpg">
+<style>
+html, body { margin: 0; padding: 0; background: #0d0d0d; }
+main { max-width: 1040px; margin: 0 auto; min-height: 100vh; }
+.grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 2px; }
+.tile { display: block; aspect-ratio: 16 / 9; overflow: hidden; background: #000; }
+.tile img { width: 100%; height: 100%; object-fit: cover; display: block; transition: opacity .15s; }
+.tile:hover img, .tile:focus-visible img { opacity: .85; }
+.tile:focus-visible { outline: 2px solid #fff; outline-offset: -2px; }
+.more { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 8px; background: #161616; color: #fff; text-decoration: none; font-family: -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-size: 14px; font-weight: 600; }
+.more img { width: 44px; height: 44px; border-radius: 50%; object-fit: cover; }
+@media (min-width: 768px) { .grid { grid-template-columns: repeat(3, 1fr); } }
+</style>
+</head>
+<body>
+<main>
+<div class="grid">
+<a class="tile" href="https://www.youtube.com/watch?v=V6xIpCHFRVE" target="_blank" rel="noopener noreferrer" aria-label="Historia de la Formula 1 en México - ver en YouTube"><img src="f1.jpg" alt="Historia de la Formula 1 en México"></a>
+<a class="tile" href="https://www.youtube.com/watch?v=KtxKbSiKiiQ" target="_blank" rel="noopener noreferrer" aria-label="Origen de la Catrina: la burla detrás del sombrero - ver en YouTube"><img src="catrina.jpg" alt="Origen de la Catrina: la burla detrás del sombrero" loading="lazy"></a>
+<a class="tile" href="https://www.youtube.com/watch?v=bhAIYc92-zI" target="_blank" rel="noopener noreferrer" aria-label="Beca Rita Cetina: la mujer y la historia detrás del nombre - ver en YouTube"><img src="rita.jpg" alt="Beca Rita Cetina: la mujer y la historia detrás del nombre" loading="lazy"></a>
+<a class="tile" href="https://www.youtube.com/watch?v=mTFrnA2N5Pw" target="_blank" rel="noopener noreferrer" aria-label="¿Dónde esta Inés Gómez Mont? - ver en YouTube"><img src="gomezmont.jpg" alt="¿Dónde esta Inés Gómez Mont?" loading="lazy"></a>
+<a class="tile" href="https://www.youtube.com/watch?v=_Jq_9pXLh3A" target="_blank" rel="noopener noreferrer" aria-label="Juicio YPF Argentina: por qué ya no debe 16 mil millones - ver en YouTube"><img src="ypf.jpg" alt="Juicio YPF Argentina: por qué ya no debe 16 mil millones" loading="lazy"></a>
+<a class="tile" href="https://www.youtube.com/watch?v=6yoFzqM6-0k" target="_blank" rel="noopener noreferrer" aria-label="CIA en Chihuahua: por qué acusan de traición al exfiscal - ver en YouTube"><img src="chihuahua.jpg" alt="CIA en Chihuahua: por qué acusan de traición al exfiscal" loading="lazy"></a>
+<a class="tile" href="https://www.youtube.com/watch?v=VfXd54OHv-Q" target="_blank" rel="noopener noreferrer" aria-label="¿Por qué Nicaragua le cerró la puerta a Estados Unidos? - ver en YouTube"><img src="nicaragua.jpg" alt="¿Por qué Nicaragua le cerró la puerta a Estados Unidos?" loading="lazy"></a>
+<a class="tile more" href="https://www.youtube.com/@precuelamx" target="_blank" rel="noopener noreferrer" aria-label="Más videos en el canal de YouTube"><img src="avatar.jpg" alt=""><span>Más en YouTube</span></a>
+</div>
+</main>
+</body>
+</html>
